@@ -1,0 +1,16 @@
+= Docz : document your React components with clazz
+
+Slides for conference `Jug Summer Camp 2020`
+
+== Tools
+
+Based on https://github.com/asciidoctor/asciidoctor-reveal.js
+
+Pre-requisites:: npm
+
+.Generate HTML slides
+[source]
+----
+npm install
+npm run build
+----

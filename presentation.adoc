@@ -1,0 +1,18 @@
+= 🌟 Docz : 📝 your React components
+:source-highlighter: highlightjs
+:revealjs_theme: white
+:revealjs_history: true
+:revealjs_plugin_pdf: enabled
+:revealjs_plugin_highlight: enabled
+:customcss: custom.css
+:data-uri:
+:icons: font
+
+
+== Tech Lead 👉 "Benoit Prioux"
+
+icon:twitter[] icon:github[] binout / ❤️ Asciidoctor (🐜)
+
+image:images/lectra.png[width=40%]
+
+image:images/lectra-versalis.png[width=40%]

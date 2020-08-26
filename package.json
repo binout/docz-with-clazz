@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "asciidoctor-reveal.js": "^2.0.0",
+    "npm-watch": "^0.6.0"
+  },
+  "watch": {
+    "build": "presentation.adoc"
+  },
+  "scripts": {
+    "build": "node asciidoctor-reveal.js",
+    "watch": "npm-watch"
+  }
+}
