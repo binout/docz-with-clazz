@@ -8,6 +8,14 @@
 :data-uri:
 :icons: font
 
+== Il était une fois ...
+
+* 1 projet
+* Plusieurs feature teams (`React`)
+* Une même UX
+
+🤝
+Des composants `React` communs maintenus par _tout le monde_
 
 == Tech Lead 👉 "Benoit Prioux"
 
@@ -16,3 +24,110 @@ icon:twitter[] icon:github[] binout / ❤️ Asciidoctor (🐜)
 image:images/lectra.png[width=40%]
 
 image:images/lectra-versalis.png[width=40%]
+
+== 📖 RTFM !
+
+[quote, Tech Lead]
+🤓 : Il faut mettre en place le process de documentation dès le 1er commit ! 
+
+[quote, Dev]
+😤 : On en a réellement besoin ? La doc ne sera jamais à jour ...
+
+== 💪 Challenge Accepted
+
+La documentation :
+
+* doit être simple (et fun) à écrire
+* doit être facilement accessible et utile
+* doit être toujours à jour 
+
+== README
+
+.https://github.com/kefranabg/readme-md-generator
+image::https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-11e9-9958-f9004c2f97e1.gif[]
+
+== Check up 
+
+* ✅ simple à écrire
+* ✅ facilement accessible et utile
+* ❌ toujours à jour
+ 
+== Asciidoc !
+
+* Mieux que `Markdown` (selon moi 😝)
+* Inclusion de code source dans la documentation 
+
+== Exemple 
+
+TODO
+
+== Check up  
+
+* ✴️ simple à écrire
+* ✅ facilement accessible et utile
+* ✅ toujours à jour
+
+== Docz 
+
+https://www.docz.site/
+
+* Basé sur l'écriture de fichiers `MDX`
+* Génère un site statique
+
+== MDX ? 
+
+MDX = `Markdown` + `JSX` 🤯
+
+[source, mdx]
+----
+# Hello, *world*!
+
+Below is an example of JSX embedded in Markdown. <br /> **Try and change
+the background color!**
+
+<div style={{ padding: '20px', backgroundColor: 'tomato' }}>
+  <h3>This is JSX</h3>
+</div>
+----
+
+== Documentation
+
+image::https://camo.githubusercontent.com/e83b8f6797105464270b7ad1a5cae1badd367f30/68747470733a2f2f63646e2d7374642e64707263646e2e6e65742f66696c65732f6163635f3634393635312f533259434944[]
+
+== 🤓 Getting Started
+
+TODO
+
+== 🛠 Under the hood
+
+TODO
+
+== 🤩 Built-in components
+
+TODO
+
+== 😎 Show time
+
+TODO
+
+== Check up  
+
+* ✅ simple à écrire
+* ✅ facilement accessible et utile
+* ✅ toujours à jour
+
+== Feedback
+
+* 👍 Mise en place et prise en main
+* ✌️ Facile à customizer
+* 🧐 Support Typescript à améliorer
+* 👎 Un peu _lourd_ 
+* 😤 Des problèmes de cache 
+
+== Alternatives ?
+
+* react-styleguidist
+** https://github.com/styleguidist/react-styleguidist
+
+* storybook
+** https://storybook.js.org/
