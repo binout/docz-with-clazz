@@ -1,0 +1,20 @@
+= Progres Foo
+
+Another Progress Bar
+
+== Usage
+
+[source,javascript]
+.Basic
+----
+include::src/ProgressFoo.test.js[tags=basic]
+----
+
+== Props
+
+[source,typescript]
+----
+include::src/ProgressFoo.tsx[tags=props]
+----
+
+
