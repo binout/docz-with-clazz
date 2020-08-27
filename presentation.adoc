@@ -82,8 +82,7 @@ MDX = `Markdown` + `JSX` 🤯
 ----
 # Hello, *world*!
 
-Below is an example of JSX embedded in Markdown. <br /> **Try and change
-the background color!**
+Below is an example of JSX embedded in Markdown.
 
 <div style={{ padding: '20px', backgroundColor: 'tomato' }}>
   <h3>This is JSX</h3>
@@ -96,7 +95,34 @@ image::https://camo.githubusercontent.com/e83b8f6797105464270b7ad1a5cae1badd367f
 
 == 🤓 Getting Started
 
-TODO
+[source]
+----
+npm install docz
+----
+
+[TIP] Required `react` et `react-dom` >= 16.8.0 
+
+== 😎 Typescript support
+
+.doczrc.js
+[source]
+----
+export default {
+    typescript: true
+};
+----
+
+== 🚀 Build and serve
+
+.package.json
+[source]
+----
+"scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+}
+----
 
 == 🛠 Under the hood
 

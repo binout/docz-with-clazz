@@ -1,3 +1,3 @@
-import BasicButton from "./ProgressFoo";
+import ProgressFoo from "./ProgressFoo";
 
-export default BasicButton;
+export default ProgressFoo;

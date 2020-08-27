@@ -14,3 +14,18 @@ Pre-requisites:: npm
 npm install
 npm run build
 ----
+
+== Example : Progres Foo
+
+.Build
+[source]
+----
+npm install
+npm run build
+----
+
+.Docz
+[source]
+----
+npm run docz:serve
+----
