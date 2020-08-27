@@ -7,7 +7,7 @@ Another Progress Bar
 [source,javascript]
 .Basic
 ----
-include::src/ProgressFoo.test.js[tags=basic]
+include::src/__tests__/ProgressFoo.test.js[tags=basic]
 ----
 
 == Props
