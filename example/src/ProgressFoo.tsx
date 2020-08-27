@@ -1,4 +1,5 @@
 import React from "react";
+import './ProgressFoo.css';
 
 // tag::props[]
 interface ProgressFooProps {
@@ -7,7 +8,10 @@ interface ProgressFooProps {
 }
 // end::props[]
 
-const ProgressFoo = ({ now = 50 }: ProgressFooProps) =>
-    <h1>{now}</h1>
+const ProgressFoo = ({ now = 50 }: ProgressFooProps) => {
+  return (
+    <progress value={now} max="100"></progress>
+  )
+}
 
 export default ProgressFoo;

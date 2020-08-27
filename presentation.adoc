@@ -172,12 +172,25 @@ TODO
 * ✅ facilement accessible et utile
 * ✅ toujours à jour
 
-== Feedback
+== One More Thing 🤩
 
-* 👍 Mise en place et prise en main
-* ✌️ Facile à customizer
+💡 Docz = environnement de développement et d'intégration
+
+[NOTE]
+====
+😅 Permet d'éviter `npm link` ou `yalc`
+====
+
+== Feedback 👍
+
+* 🚀 Mise en place et prise en main
+* 🎭 Facile à customizer
+* 📚 Permet de construire un site de documentation
+
+== Feedback 👎
+
 * 🧐 Support Typescript à améliorer
-* 👎 Un peu _lourd_ 
+* 🐘 Un peu _lourd_ 
 * 😤 Des problèmes de cache 
 
 == Alternatives ?
@@ -187,3 +200,10 @@ TODO
 
 * storybook
 ** https://storybook.js.org/
+
+== Pour conclure
+
+* 🤗 Eco-système riche ... mais en constante évolution
+* 😛 Fun d'écrire de la documentation
+
+image::https://sd.keepcalms.com/i/keep-calm-and-document-properly.png[]
