@@ -41,6 +41,11 @@ La documentation :
 * doit être facilement accessible et utile
 * doit être toujours à jour 
 
+== Progress Foo 
+
+image:images/progress-foo-1.png[]
+image:images/progress-foo-2.png[]
+
 == README
 
 .https://github.com/kefranabg/readme-md-generator
@@ -59,7 +64,25 @@ image::https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-
 
 == Exemple 
 
-TODO
+image::images/readme.png[]
+
+== Code
+
+[source, typescript]
+----
+// tag::props[]
+interface ProgressFooProps {
+  /** value of progress (min=0, max=100, default is 50) */
+  now?: number
+}
+// end::props[]
+
+const ProgressFoo = ({ now = 50 }: ProgressFooProps) => .... 
+----
+
+== README.adoc
+
+image::images/asciidoc.png[]
 
 == Check up  
 
@@ -67,7 +90,11 @@ TODO
 * ✅ facilement accessible et utile
 * ✅ toujours à jour
 
-== Docz 
+== 🤔 💡
+
+image::images/idea.png[]
+
+== 🚀 Docz 🚀
 
 https://www.docz.site/
 
@@ -100,7 +127,10 @@ image::https://camo.githubusercontent.com/e83b8f6797105464270b7ad1a5cae1badd367f
 npm install docz
 ----
 
-[TIP] Required `react` et `react-dom` >= 16.8.0 
+[TIP]
+====
+ Required `react` et `react-dom` >= 16.8.0 
+====
 
 == 😎 Typescript support
 
