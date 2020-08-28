@@ -135,7 +135,7 @@ npm install docz
 
 [TIP]
 ====
- Required `react` et `react-dom` >= 16.8.0 
+Required `react` et `react-dom` >= 16.8.0 
 ====
 
 == 😎 Typescript support
@@ -162,35 +162,67 @@ export default {
 
 == 🛠 Under the hood
 
-TODO
+Génère un site statique basé sur https://www.gatsbyjs.com/
+
+image::images/gatsby.png[height=450]
 
 == 🤩 Built-in components `<Props`>
 
-* <Props> : documentation for components props
+Documentation for components props
+
+* Supports `flow`, `prop-types` and `Typescript`
 
 [source]
 ----
+import { Props } from 'docz'
 import ProgressFoo from './ProgressFoo.tsx'
 
 <Props of={ProgressFoo} />
 ----
 
-== 🤩 Built-in components `<Playground`>
-
-* <Playground> : editable rendering
+== 🤩 Built-in components `<Props`>
 
 [source]
 ----
+interface ProgressFooProps {
+  /** value of progress (min=0, max=100, default is 50) */
+  now?: number,
+  /** variant which defines color (default is info) */
+  variant?: 'success' | 'info' | 'warning' | 'danger',
+  /** set to true to display a label next to progress bar (default is false) */
+  label?: boolean
+}
+
+const ProgressFoo = ({ now = 50, variant = 'info', label = false }: ProgressFooProps) => {
+  ...
+}
+----
+
+== 🤩 Built-in components `<Props`>
+
+image::images/props.png[]
+
+== 🤩 Built-in components `<Playground`>
+
+Editable rendering
+
+[source]
+----
+import { Playground } from 'docz'
 import ProgressFoo from './ProgressFoo.tsx'
 
 <Playground>
-    <ProgressFoo now={50} />
+  <ProgressFoo now={66} variant="success" />
 </Playground>
 ----
 
-== 😎 Show time
+== 🤩 Built-in components `<Playground`>
 
-TODO
+image::images/playground.png[]
+
+== 😎 Démo
+
+image::https://dbdzm869oupei.cloudfront.net/img/sticker/preview/14865.png[]
 
 == Check up  
 
@@ -217,19 +249,19 @@ TODO
 
 * 🧐 Support Typescript à améliorer
 * 🐘 Un peu _lourd_ 
-* 😤 Des problèmes de cache 
+* 😤 Des problèmes de cache (🗑 `.docz`)
 
-== Alternatives ?
+== Alternative - react-styleguidist
 
-* react-styleguidist
-** https://github.com/styleguidist/react-styleguidist
+https://github.com/styleguidist/react-styleguidist
 
-* storybook
-** https://storybook.js.org/
+== Alternative - storybook
+
+https://storybook.js.org/
 
 == Pour conclure
 
 * 🤗 Eco-système riche ... mais en constante évolution
 * 😛 Fun d'écrire de la documentation
 
-image::https://sd.keepcalms.com/i/keep-calm-and-document-properly.png[]
+image::https://sd.keepcalms.com/i/keep-calm-and-document-properly.png[height=240]
