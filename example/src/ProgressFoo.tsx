@@ -22,6 +22,14 @@ const ProgressBar = styled.progress`
   }
 `;
 
+const ProgressLabel: React.FC<{ value: number, display: boolean }> = ({ value, display }) => {
+  console.log(display)
+  if (display) {
+    return <span>{value}%</span>
+  }
+  return null
+}
+
 const ProgressFoo = ({ now = 50, variant = 'info', label = false }: ProgressFooProps) => {
   let color
   switch (variant) {
@@ -33,7 +41,7 @@ const ProgressFoo = ({ now = 50, variant = 'info', label = false }: ProgressFooP
   return (
     <div>
       <ProgressBar value={now} max="100" color={color}></ProgressBar>
-      {label ? <span>{now}%</span> : ''}
+      <ProgressLabel value={now} display={label}></ProgressLabel>
     </div>
   )
 }
