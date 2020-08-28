@@ -111,7 +111,7 @@ https://www.docz.site/
 
 MDX = `Markdown` + `JSX` 🤯
 
-[source, mdx]
+[source, markdown]
 ----
 # Hello, *world*!
 
@@ -141,7 +141,7 @@ Required `react` et `react-dom` >= 16.8.0
 == 😎 Typescript support
 
 .doczrc.js
-[source]
+[source, typescript]
 ----
 export default {
     typescript: true
@@ -151,7 +151,7 @@ export default {
 == 🚀 Build and serve
 
 .package.json
-[source]
+[source, javascript]
 ----
 "scripts": {
     "docz:dev": "docz dev",
@@ -172,7 +172,7 @@ Documentation for components props
 
 * Supports `flow`, `prop-types` and `Typescript`
 
-[source]
+[source, typescript]
 ----
 import { Props } from 'docz'
 import ProgressFoo from './ProgressFoo.tsx'
@@ -182,7 +182,7 @@ import ProgressFoo from './ProgressFoo.tsx'
 
 == 🤩 Built-in components `<Props`>
 
-[source]
+[source, typescript]
 ----
 interface ProgressFooProps {
   /** value of progress (min=0, max=100, default is 50) */
@@ -206,7 +206,7 @@ image::images/props.png[]
 
 Editable rendering
 
-[source]
+[source, typescript]
 ----
 import { Playground } from 'docz'
 import ProgressFoo from './ProgressFoo.tsx'
