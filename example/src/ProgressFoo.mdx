@@ -1,7 +1,7 @@
 import { Playground, Props } from 'docz'
 import ProgressFoo from './ProgressFoo.tsx'
 
-# Progress Foo
+# ProgressFoo
 
 Just another Progress Bar
 
@@ -9,8 +9,49 @@ Just another Progress Bar
 
 <Props of={ProgressFoo} />
 
-## Basic usage
+## Usage 
+
+### Basic (default value)
 
 <Playground>
-    <ProgressFoo now={50} />
+    <ProgressFoo />
+</Playground>
+
+### With value
+
+<Playground>
+    <ProgressFoo now="33"/>
+</Playground>
+
+### With label
+
+<Playground>
+    <ProgressFoo now="33" label="true"/>
+</Playground>
+
+
+### With variant
+
+#### info
+
+<Playground>
+    <ProgressFoo now="66" variant="info"/>
+</Playground>
+
+#### success
+
+<Playground>
+    <ProgressFoo now="66" variant="success"/>
+</Playground>
+
+#### warning
+
+<Playground>
+    <ProgressFoo now="66" variant="warning"/>
+</Playground>
+
+#### danger
+
+<Playground>
+    <ProgressFoo now="66" variant="danger"/>
 </Playground>

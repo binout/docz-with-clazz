@@ -56,8 +56,14 @@ image::https://user-images.githubusercontent.com/9840435/60266022-72a82400-98e7-
 * ✅ simple à écrire
 * ✅ facilement accessible et utile
 * ❌ toujours à jour
+
+== Living documentation 
+
+image::https://images-na.ssl-images-amazon.com/images/I/51fjfN1lKLL._SX380_BO1,204,203,200_.jpg[]
  
-== Asciidoc !
+== Asciidoc FTW !
+
+image::https://blog.oxiane.com/wp-content/uploads/2018/06/logo_asciidoctor_300.png[]
 
 * Mieux que `Markdown` (selon moi 😝)
 * Inclusion de code source dans la documentation 
@@ -158,9 +164,29 @@ export default {
 
 TODO
 
-== 🤩 Built-in components
+== 🤩 Built-in components `<Props`>
 
-TODO
+* <Props> : documentation for components props
+
+[source]
+----
+import ProgressFoo from './ProgressFoo.tsx'
+
+<Props of={ProgressFoo} />
+----
+
+== 🤩 Built-in components `<Playground`>
+
+* <Playground> : editable rendering
+
+[source]
+----
+import ProgressFoo from './ProgressFoo.tsx'
+
+<Playground>
+    <ProgressFoo now={50} />
+</Playground>
+----
 
 == 😎 Show time
 
