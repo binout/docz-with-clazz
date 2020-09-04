@@ -255,9 +255,47 @@ image::https://dbdzm869oupei.cloudfront.net/img/sticker/preview/14865.png[]
 
 https://github.com/styleguidist/react-styleguidist
 
+image::https://react-styleguidist.js.org/img/logo.svg[]
+
+== Styleguidist
+
+* Même principe que `Docz`
+
+[source, markdown]
+----
+# Usage
+
+```jsx
+<ProgressFoo now={66} variant="success" />
+```
+----
+
+* Documentation automatique des _props_
+
+== Styleguidist vs Docz
+
+* 👍 Plus _léger_
+* 🤓 Intégration avec third-party librairies
+* 😅 Moins customizable
+
 == Alternative - storybook
 
 https://storybook.js.org/
+
+image::https://blog.ineat-group.com/wp-content/uploads/2019/08/011fc620-4cb2-11e9-a51a-fdbb10b4cabb-e1567090000539.png[]
+
+== Storybook
+
+* 😅 Ecriture de _stories_ (code) pour générer un _storybook_ 
+* 👍 Supporte les autres frameworks (Vue, Angular, WebComponents)
+* 😎 Large écosystème de plug-in
+* 🥳 Support du MDX depuis `6.0` (août 2020)
+
+== Storybook vs Docz
+
+* 📚 Plus adapté pour une gallerie de composants
+* ✅ Aide au développement et à la testabilité
+* 👨‍🎨 Plus orienté doc UX que doc technique
 
 == Pour conclure
 
